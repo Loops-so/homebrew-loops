@@ -5,22 +5,22 @@ cask "loops@0.0.0" do
   on_macos do
     on_intel do
       url "https://github.com/Loops-so/cli/releases/download/v#{version}/loops_cli_darwin_x86_64.tar.gz"
-      sha256 "dda3e4982655ea3ff77aab643104414fca221aa1ada76c7742057ba4275af201"
+      sha256 "1705cd1b82b1978796e6898a890b7ec13b6fda67b00ff28dd436e4f32b228d47"
     end
     on_arm do
       url "https://github.com/Loops-so/cli/releases/download/v#{version}/loops_cli_darwin_arm64.tar.gz"
-      sha256 "9b9bcf57f87ddb26d59f9067068cfdaad8528f98434bbc0d9a302a8aec27c803"
+      sha256 "d83376f6789d4da534ec26cc7fb2c1468cb27a187cfbbe4cfe6663d7baf090d6"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Loops-so/cli/releases/download/v#{version}/loops_cli_linux_x86_64.tar.gz"
-      sha256 "d4f5b3723cc53bde7d810457e238b1ec782b2a4917c01d3c9b478adcb14450db"
+      sha256 "ebbf4bbceca3e2deea0ab16d51ae1594e6e9ebc165e63505fe05f9f226a315b5"
     end
     on_arm do
       url "https://github.com/Loops-so/cli/releases/download/v#{version}/loops_cli_linux_arm64.tar.gz"
-      sha256 "d8ecc20ecdb0f324e2c5d8a2de8d759f6c63ae34a155d2c0e238979e6192cd75"
+      sha256 "111e9f5533b952814b8672122c75c694d10aa08dc03a1d6e9e4657c3f380432d"
     end
   end
 
